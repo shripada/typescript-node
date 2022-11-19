@@ -9,7 +9,8 @@
     "build": "tsc",
     "test": "jest ./src",
     "dev": "nodemon ./src/index.ts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "author": "",
   "license": "ISC",
