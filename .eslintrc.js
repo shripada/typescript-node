@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    root: true,
   },
   extends: [
     'eslint:recommended',
@@ -11,6 +12,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    '@react-native-community',
   ],
   overrides: [],
   parserOptions: {
