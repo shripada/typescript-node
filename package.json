@@ -7,6 +7,7 @@
     "format": "prettier --ignore-path .gitignore --write 'src/**/*.{ts,js,json}'",
     "lint": "eslint --ignore-path .gitignore --fix 'src/**/*.{ts,js}'",
     "build": "tsc",
+    "watch-noemit": "tsc --watch --noEmit",
     "test": "jest ./src",
     "dev": "nodemon ./src/index.ts",
     "prepare": "husky install",
@@ -41,5 +42,9 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.0",
     "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.28.20",
+    "ramda": "^0.28.0"
   }
 }
